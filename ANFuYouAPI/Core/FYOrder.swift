@@ -31,7 +31,7 @@ public struct FYOrder {
                 userID: String,
                 mchntCd: String,
                 key: String,
-                keySMS: String,
+                keySMS: String = "f13bdadb0bbe29966e9e4c4e01677bc0",
                 keyPay: String = "f13bdadb0bbe29966e9e4c4e01677bc0") {
         self.backURL = backURL
         self.mchntOrderID = orderID
