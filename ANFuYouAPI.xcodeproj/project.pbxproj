@@ -11,6 +11,19 @@
 		A0153D3C21E75BC300DA19A6 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0153D3821E75BC300DA19A6 /* CryptoSwift.framework */; };
 		A0153D3D21E75BC300DA19A6 /* ANBaseNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0153D3921E75BC300DA19A6 /* ANBaseNetwork.framework */; };
 		A0153D3E21E75BC300DA19A6 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0153D3A21E75BC300DA19A6 /* SWXMLHash.framework */; };
+		A0153D4521E75D0F00DA19A6 /* FYMobileService+OneTimeCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0153D4121E75D0F00DA19A6 /* FYMobileService+OneTimeCode.swift */; };
+		A0153D4621E75D0F00DA19A6 /* FYMobileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0153D4221E75D0F00DA19A6 /* FYMobileService.swift */; };
+		A0153D4721E75D0F00DA19A6 /* FYMobileService+Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0153D4321E75D0F00DA19A6 /* FYMobileService+Payment.swift */; };
+		A0153D4821E75D0F00DA19A6 /* FYMobileService+Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0153D4421E75D0F00DA19A6 /* FYMobileService+Order.swift */; };
+		A0153D4C21E75D6300DA19A6 /* FYXMLRequestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0153D4B21E75D6300DA19A6 /* FYXMLRequestAPI.swift */; };
+		A0153D4E21E75EF600DA19A6 /* FYOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0153D4D21E75EF600DA19A6 /* FYOrder.swift */; };
+		A0153D5021E7608400DA19A6 /* FYEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0153D4F21E7608400DA19A6 /* FYEnvironment.swift */; };
+		A0153D5321E762BC00DA19A6 /* FYOneTimeCodeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0153D5221E762BC00DA19A6 /* FYOneTimeCodeResponse.swift */; };
+		A0153D5521E7634B00DA19A6 /* FYPaymentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0153D5421E7634B00DA19A6 /* FYPaymentResponse.swift */; };
+		A0153D5721E7643B00DA19A6 /* FYNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0153D5621E7643B00DA19A6 /* FYNetworkError.swift */; };
+		A0153D5A21E764C600DA19A6 /* FYOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0153D5921E764C600DA19A6 /* FYOrderResponse.swift */; };
+		A0153D5C21E7653B00DA19A6 /* FYCommonResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0153D5B21E7653B00DA19A6 /* FYCommonResponse.swift */; };
+		A0153D5E21E765A300DA19A6 /* FYResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0153D5D21E765A300DA19A6 /* FYResponse.swift */; };
 		A0C70AD221E7579A00502EC7 /* ANFuYouAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C70AD021E7579A00502EC7 /* ANFuYouAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -21,6 +34,19 @@
 		A0153D3A21E75BC300DA19A6 /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = Carthage/Build/iOS/SWXMLHash.framework; sourceTree = "<group>"; };
 		A0153D3F21E75BEB00DA19A6 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A0153D4021E75BEB00DA19A6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A0153D4121E75D0F00DA19A6 /* FYMobileService+OneTimeCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FYMobileService+OneTimeCode.swift"; sourceTree = "<group>"; };
+		A0153D4221E75D0F00DA19A6 /* FYMobileService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYMobileService.swift; sourceTree = "<group>"; };
+		A0153D4321E75D0F00DA19A6 /* FYMobileService+Payment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FYMobileService+Payment.swift"; sourceTree = "<group>"; };
+		A0153D4421E75D0F00DA19A6 /* FYMobileService+Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FYMobileService+Order.swift"; sourceTree = "<group>"; };
+		A0153D4B21E75D6300DA19A6 /* FYXMLRequestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYXMLRequestAPI.swift; sourceTree = "<group>"; };
+		A0153D4D21E75EF600DA19A6 /* FYOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYOrder.swift; sourceTree = "<group>"; };
+		A0153D4F21E7608400DA19A6 /* FYEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYEnvironment.swift; sourceTree = "<group>"; };
+		A0153D5221E762BC00DA19A6 /* FYOneTimeCodeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYOneTimeCodeResponse.swift; sourceTree = "<group>"; };
+		A0153D5421E7634B00DA19A6 /* FYPaymentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYPaymentResponse.swift; sourceTree = "<group>"; };
+		A0153D5621E7643B00DA19A6 /* FYNetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYNetworkError.swift; sourceTree = "<group>"; };
+		A0153D5921E764C600DA19A6 /* FYOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYOrderResponse.swift; sourceTree = "<group>"; };
+		A0153D5B21E7653B00DA19A6 /* FYCommonResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYCommonResponse.swift; sourceTree = "<group>"; };
+		A0153D5D21E765A300DA19A6 /* FYResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYResponse.swift; sourceTree = "<group>"; };
 		A0C70ACD21E7579A00502EC7 /* ANFuYouAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ANFuYouAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C70AD021E7579A00502EC7 /* ANFuYouAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANFuYouAPI.h; sourceTree = "<group>"; };
 		A0C70AD121E7579A00502EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +79,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A0153D5121E7623700DA19A6 /* FYMobileService */ = {
+			isa = PBXGroup;
+			children = (
+				A0153D4221E75D0F00DA19A6 /* FYMobileService.swift */,
+				A0153D4421E75D0F00DA19A6 /* FYMobileService+Order.swift */,
+				A0153D4121E75D0F00DA19A6 /* FYMobileService+OneTimeCode.swift */,
+				A0153D4321E75D0F00DA19A6 /* FYMobileService+Payment.swift */,
+			);
+			path = FYMobileService;
+			sourceTree = "<group>";
+		};
+		A0153D5821E764AB00DA19A6 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				A0153D5D21E765A300DA19A6 /* FYResponse.swift */,
+				A0153D5B21E7653B00DA19A6 /* FYCommonResponse.swift */,
+				A0153D5921E764C600DA19A6 /* FYOrderResponse.swift */,
+				A0153D5221E762BC00DA19A6 /* FYOneTimeCodeResponse.swift */,
+				A0153D5421E7634B00DA19A6 /* FYPaymentResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		A0153D5F21E76C7F00DA19A6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A0153D4B21E75D6300DA19A6 /* FYXMLRequestAPI.swift */,
+				A0153D4D21E75EF600DA19A6 /* FYOrder.swift */,
+				A0153D4F21E7608400DA19A6 /* FYEnvironment.swift */,
+				A0153D5621E7643B00DA19A6 /* FYNetworkError.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		A0C70AC321E7579A00502EC7 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +138,9 @@
 			children = (
 				A0C70AD021E7579A00502EC7 /* ANFuYouAPI.h */,
 				A0C70AD121E7579A00502EC7 /* Info.plist */,
+				A0153D5F21E76C7F00DA19A6 /* Core */,
+				A0153D5121E7623700DA19A6 /* FYMobileService */,
+				A0153D5821E764AB00DA19A6 /* Response */,
 			);
 			path = ANFuYouAPI;
 			sourceTree = "<group>";
@@ -125,6 +188,7 @@
 				TargetAttributes = {
 					A0C70ACC21E7579A00502EC7 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -160,6 +224,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0153D4E21E75EF600DA19A6 /* FYOrder.swift in Sources */,
+				A0153D5721E7643B00DA19A6 /* FYNetworkError.swift in Sources */,
+				A0153D5521E7634B00DA19A6 /* FYPaymentResponse.swift in Sources */,
+				A0153D5021E7608400DA19A6 /* FYEnvironment.swift in Sources */,
+				A0153D4621E75D0F00DA19A6 /* FYMobileService.swift in Sources */,
+				A0153D4821E75D0F00DA19A6 /* FYMobileService+Order.swift in Sources */,
+				A0153D5321E762BC00DA19A6 /* FYOneTimeCodeResponse.swift in Sources */,
+				A0153D4C21E75D6300DA19A6 /* FYXMLRequestAPI.swift in Sources */,
+				A0153D5C21E7653B00DA19A6 /* FYCommonResponse.swift in Sources */,
+				A0153D4521E75D0F00DA19A6 /* FYMobileService+OneTimeCode.swift in Sources */,
+				A0153D5A21E764C600DA19A6 /* FYOrderResponse.swift in Sources */,
+				A0153D4721E75D0F00DA19A6 /* FYMobileService+Payment.swift in Sources */,
+				A0153D5E21E765A300DA19A6 /* FYResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +369,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -314,6 +392,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.ANFuYouAPI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -323,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

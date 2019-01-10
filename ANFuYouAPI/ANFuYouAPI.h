@@ -24,7 +24,7 @@
 //  Copyright © 2019 anotheren.com. All rights reserved.
 //
 
-#import <Foundtion/Foundtion.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for ANFuYouAPI.
 FOUNDATION_EXPORT double ANFuYouAPIVersionNumber;
