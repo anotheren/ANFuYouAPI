@@ -1,0 +1,12 @@
+github "Alamofire/Alamofire"
+github "krzyzanowskim/CryptoSwift"
+github "drmohundro/SWXMLHash"
+
+git "https://github.com/anotheren/ANBaseNetwork.git"
+
+
+# How to update
+# carthage update --platform iOS --no-use-binaries
+
+# How to install Carthage
+# brew install carthage

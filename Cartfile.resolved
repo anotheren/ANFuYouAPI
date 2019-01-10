@@ -1,0 +1,4 @@
+github "Alamofire/Alamofire" "4.8.0"
+github "anotheren/ANBaseNetwork" "1.2"
+github "drmohundro/SWXMLHash" "4.7.6"
+github "krzyzanowskim/CryptoSwift" "0.13.1"
