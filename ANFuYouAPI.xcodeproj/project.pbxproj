@@ -106,9 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				A0153D4B21E75D6300DA19A6 /* FYXMLRequestAPI.swift */,
-				A0153D4D21E75EF600DA19A6 /* MerchantOrder.swift */,
 				A0153D4F21E7608400DA19A6 /* FYEnvironment.swift */,
 				A0153D5621E7643B00DA19A6 /* FYNetworkError.swift */,
+				A0153D4D21E75EF600DA19A6 /* MerchantOrder.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
