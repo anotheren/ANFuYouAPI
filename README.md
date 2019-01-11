@@ -1,5 +1,5 @@
 # ANFuYouAPI
-富友支付移动版接口封装，可替换官方 SDK，减小体积/审核风险，并且支持 bitcode 👍。
+富友支付移动版接口封装，可替换官方 SDK，减小体积/审核风险，并且支持 bitcode 👍。
 
 ## Requirements
 
@@ -18,7 +18,7 @@ import Alamofire
 import ANBaseNetwork
 import ANFuYouAPI
 
-// STEP 1: 构造商户订单（通常由服务端提供所有字段）
+// STEP 1: 构造商户订单（通常由服务端提供所有字段）
 
 let order = MerchantOrder(...)
 
@@ -36,7 +36,7 @@ request(api: api1) { [weak self] result1 in
     }
 }
 
-// SETP 3: 界面输入手机号，调用验证码发送接口
+// SETP 3: 界面输入手机号，调用验证码发送接口
 
 let api2 = FYMobileService.OneTimeCode(mobile: mobile, 
                                        order: order, 
