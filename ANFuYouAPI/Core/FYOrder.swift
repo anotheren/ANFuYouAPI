@@ -18,7 +18,7 @@ public struct FYOrder {
     public let bankCard: String
     public let userID: String
     public let mchntCD: String
-    public let key: String
+    public let keyMerchant: String
     public let keySMS: String
     public let keyPay: String
     
@@ -29,8 +29,8 @@ public struct FYOrder {
                 userName: String,
                 bankCard: String,
                 userID: String,
-                mchntCd: String,
-                key: String,
+                mchntCD: String,
+                keyMerchant: String,
                 keySMS: String = "f13bdadb0bbe29966e9e4c4e01677bc0",
                 keyPay: String = "f13bdadb0bbe29966e9e4c4e01677bc0") {
         self.backURL = backURL
@@ -40,8 +40,8 @@ public struct FYOrder {
         self.userName = userName
         self.bankCard = bankCard
         self.userID = userID
-        self.mchntCD = mchntCd
-        self.key = key
+        self.mchntCD = mchntCD
+        self.keyMerchant = keyMerchant
         self.keySMS = keySMS
         self.keyPay = keyPay
     }

@@ -47,7 +47,7 @@ extension FYMobileService {
             self.IDNO = order.idNumber
             self.USERID = order.userID
             self.BANKCARD = order.bankCard
-            self.KEY = order.key
+            self.KEY = order.keyMerchant
             self.environment = environment
         }
         
@@ -142,4 +142,3 @@ extension FYMobileService {
         }
     }
 }
-
