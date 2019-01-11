@@ -14,6 +14,7 @@ import ANBaseNetwork
 
 extension FYMobileService {
     
+    /// 订单生成接口
     public struct Order: FYXMLRequestAPI {
         
         public typealias ResultType = FYOrderResponse
@@ -36,6 +37,11 @@ extension FYMobileService {
         
         public let environment: FYEnvironment
         
+        /// 订单生成接口
+        ///
+        /// - Parameters:
+        ///   - order: 商户订单
+        ///   - environment: 接口环境
         public init(order: MerchantOrder,
                     environment: FYEnvironment) {
             self.MCHNTORDERID = order.mchntOrderID

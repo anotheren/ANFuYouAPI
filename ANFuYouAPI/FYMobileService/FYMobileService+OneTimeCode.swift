@@ -14,6 +14,7 @@ import ANBaseNetwork
 
 extension FYMobileService {
     
+    /// 验证码发送接口
     public struct OneTimeCode: FYXMLRequestAPI {
         
         public typealias ResultType = FYOneTimeCodeResponse
@@ -53,6 +54,13 @@ extension FYMobileService {
         
         public let environment: FYEnvironment
         
+        /// 验证码发送接口
+        ///
+        /// - Parameters:
+        ///   - mobile: 手机号
+        ///   - order: 商户订单
+        ///   - orderResponse: 订单生成接口响应
+        ///   - environment: 接口环境
         public init(mobile: String,
                     order: MerchantOrder,
                     orderResponse: FYOrderResponse,

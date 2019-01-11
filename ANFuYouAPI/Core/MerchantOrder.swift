@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// 商户订单
 public struct MerchantOrder {
     
     public let backURL: String
@@ -22,10 +23,7 @@ public struct MerchantOrder {
     public let keySMS: String
     public let keyPay: String
     
-    
     /// 商户订单
-    ///
-    /// 构造一张商户订单
     ///
     /// - Parameters:
     ///   - backURL: 回调地址

@@ -14,6 +14,7 @@ import ANBaseNetwork
 
 extension FYMobileService {
     
+    /// 用户支付接口
     public struct Payment: FYXMLRequestAPI {
         
         public typealias ResultType = FYPaymentResponse
@@ -36,6 +37,15 @@ extension FYMobileService {
         
         public let environment: FYEnvironment
         
+        /// 用户支付接口
+        ///
+        /// - Parameters:
+        ///   - mobile: 手机号
+        ///   - oneTimeCode: 验证码
+        ///   - order: 商户订单
+        ///   - orderRespone: 订单生成接口响应
+        ///   - oneTimeCodeResponse: 验证码接口响应
+        ///   - environment: 接口环境
         public init(mobile: String,
                     oneTimeCode: String,
                     order: MerchantOrder,

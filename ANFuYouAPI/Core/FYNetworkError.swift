@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// 网络错误
 public enum FYNetworkError: Error, CustomStringConvertible {
     
     case parse

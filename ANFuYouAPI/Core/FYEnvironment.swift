@@ -8,9 +8,11 @@
 
 import Foundation
 
+/// 接口环境
 public enum FYEnvironment {
-    
+    /// 开发环境
     case develop
+    /// 生产环境
     case release
     
     var isTest: String {
