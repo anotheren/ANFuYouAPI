@@ -36,7 +36,7 @@ extension FYMobileService {
         
         public let environment: FYEnvironment
         
-        public init(order: FYOrder,
+        public init(order: MerchantOrder,
                     environment: FYEnvironment) {
             self.MCHNTORDERID = order.mchntOrderID
             self.TEST = environment.isTest

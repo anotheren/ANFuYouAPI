@@ -16,7 +16,7 @@
 		A0153D4721E75D0F00DA19A6 /* FYMobileService+Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0153D4321E75D0F00DA19A6 /* FYMobileService+Payment.swift */; };
 		A0153D4821E75D0F00DA19A6 /* FYMobileService+Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0153D4421E75D0F00DA19A6 /* FYMobileService+Order.swift */; };
 		A0153D4C21E75D6300DA19A6 /* FYXMLRequestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0153D4B21E75D6300DA19A6 /* FYXMLRequestAPI.swift */; };
-		A0153D4E21E75EF600DA19A6 /* FYOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0153D4D21E75EF600DA19A6 /* FYOrder.swift */; };
+		A0153D4E21E75EF600DA19A6 /* MerchantOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0153D4D21E75EF600DA19A6 /* MerchantOrder.swift */; };
 		A0153D5021E7608400DA19A6 /* FYEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0153D4F21E7608400DA19A6 /* FYEnvironment.swift */; };
 		A0153D5321E762BC00DA19A6 /* FYOneTimeCodeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0153D5221E762BC00DA19A6 /* FYOneTimeCodeResponse.swift */; };
 		A0153D5521E7634B00DA19A6 /* FYPaymentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0153D5421E7634B00DA19A6 /* FYPaymentResponse.swift */; };
@@ -39,7 +39,7 @@
 		A0153D4321E75D0F00DA19A6 /* FYMobileService+Payment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FYMobileService+Payment.swift"; sourceTree = "<group>"; };
 		A0153D4421E75D0F00DA19A6 /* FYMobileService+Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FYMobileService+Order.swift"; sourceTree = "<group>"; };
 		A0153D4B21E75D6300DA19A6 /* FYXMLRequestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYXMLRequestAPI.swift; sourceTree = "<group>"; };
-		A0153D4D21E75EF600DA19A6 /* FYOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYOrder.swift; sourceTree = "<group>"; };
+		A0153D4D21E75EF600DA19A6 /* MerchantOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantOrder.swift; sourceTree = "<group>"; };
 		A0153D4F21E7608400DA19A6 /* FYEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYEnvironment.swift; sourceTree = "<group>"; };
 		A0153D5221E762BC00DA19A6 /* FYOneTimeCodeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYOneTimeCodeResponse.swift; sourceTree = "<group>"; };
 		A0153D5421E7634B00DA19A6 /* FYPaymentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYPaymentResponse.swift; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				A0153D4B21E75D6300DA19A6 /* FYXMLRequestAPI.swift */,
-				A0153D4D21E75EF600DA19A6 /* FYOrder.swift */,
+				A0153D4D21E75EF600DA19A6 /* MerchantOrder.swift */,
 				A0153D4F21E7608400DA19A6 /* FYEnvironment.swift */,
 				A0153D5621E7643B00DA19A6 /* FYNetworkError.swift */,
 			);
@@ -224,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0153D4E21E75EF600DA19A6 /* FYOrder.swift in Sources */,
+				A0153D4E21E75EF600DA19A6 /* MerchantOrder.swift in Sources */,
 				A0153D5721E7643B00DA19A6 /* FYNetworkError.swift in Sources */,
 				A0153D5521E7634B00DA19A6 /* FYPaymentResponse.swift in Sources */,
 				A0153D5021E7608400DA19A6 /* FYEnvironment.swift in Sources */,

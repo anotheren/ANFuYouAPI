@@ -38,7 +38,7 @@ extension FYMobileService {
         
         public init(mobile: String,
                     oneTimeCode: String,
-                    order: FYOrder,
+                    order: MerchantOrder,
                     orderRespone: FYOrderResponse,
                     oneTimeCodeResponse: FYOneTimeCodeResponse,
                     environment: FYEnvironment) {
