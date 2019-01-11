@@ -2,6 +2,10 @@
 //  ANFuYouAPI.h
 //  ANFuYouAPI
 //
+//  MIT License
+//
+//  Copyright (c) 2018 刘栋
+//
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
 //  in the Software without restriction, including without limitation the rights
@@ -19,10 +23,6 @@
 //  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
-//
-//  Created by 刘栋 on 2019/1/10.
-//  Copyright © 2019 anotheren.com. All rights reserved.
-//
 
 #import <Foundation/Foundation.h>
 
