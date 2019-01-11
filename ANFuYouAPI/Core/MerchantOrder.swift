@@ -30,15 +30,15 @@ public struct MerchantOrder {
     /// - Parameters:
     ///   - backURL: 回调地址
     ///   - mchntOrderID: 商户订单号
-    ///   - amount: 金额，单位：分
+    ///   - amount: 订单金额，单位：分
     ///   - idNumber: 用户身份证号
     ///   - userName: 用户姓名
     ///   - bankCard: 用户银行卡号
     ///   - userID: 用户编号
     ///   - mchntCD: 商户号
     ///   - keyMerchant: 商户密钥，用于订单生成接口签名
-    ///   - keySMS: 短信密钥，用于短信发送接口签名，官方写死在客户端中，建议直接由服务端一起下发
-    ///   - keyPay: 支付密钥，用于用户支付接口签名，官方写死在客户端中，建议直接由服务端一起下发
+    ///   - keySMS: 短信密钥，用于短信发送接口签名，官方写死在客户端中，建议由服务端统一下发
+    ///   - keyPay: 支付密钥，用于用户支付接口签名，官方写死在客户端中，建议由服务端统一下发
     public init(backURL: String,
                 mchntOrderID: String,
                 amount: String,
