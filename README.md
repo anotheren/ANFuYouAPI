@@ -92,4 +92,4 @@ github "anotheren/ANFuYouAPI" ~> 1.1
 
 ## License
 
-ANFuYouAPI is released under the MIT license. See LICENSE for details.
+ANFuYouAPI is released under the MIT license. See [LICENSE](./LICENSE) for details.
