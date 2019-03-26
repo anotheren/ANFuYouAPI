@@ -4,8 +4,8 @@
 ## Requirements
 
 * iOS 10.0+
-* Xcode 10
-* Swift 4.2
+* Xcode 10.2
+* Swift 5.0
 
 ## Support
 
@@ -87,7 +87,7 @@ $ brew install carthage
 To integrate ANFuYouAPI into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "anotheren/ANFuYouAPI" ~> 1.1
+github "anotheren/ANFuYouAPI" ~> 1.2
 ```
 
 ## License
