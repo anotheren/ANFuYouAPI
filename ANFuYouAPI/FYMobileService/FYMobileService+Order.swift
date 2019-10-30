@@ -131,7 +131,7 @@ extension FYMobileService {
             return parameters
         }
         
-        public func handle(xml: XMLIndexer) -> Result<FYOrderResponse> {
+        public func handle(xml: XMLIndexer) -> Result<FYOrderResponse, Error> {
             guard let response = FYOrderResponse(xml: xml["RESPONSE"]) else {
                 guard let _response = FYCommonResponse(xml: xml["RESPONSE"]) else {
                     return .failure(FYNetworkError.wrongXML)

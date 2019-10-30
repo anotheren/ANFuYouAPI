@@ -1,8 +1,6 @@
-github "Alamofire/Alamofire"
 github "krzyzanowskim/CryptoSwift"
 github "drmohundro/SWXMLHash"
-
-git "https://github.com/anotheren/ANBaseNetwork.git"
+github "anotheren/ANBaseNetwork" "2.0.0-rc.1"
 
 
 # How to update

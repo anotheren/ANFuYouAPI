@@ -146,7 +146,7 @@ extension FYMobileService {
             return parameters
         }
         
-        public func handle(xml: XMLIndexer) -> Result<FYOneTimeCodeResponse> {
+        public func handle(xml: XMLIndexer) -> Result<FYOneTimeCodeResponse, Error> {
             guard let response = FYOneTimeCodeResponse(xml: xml["RESPONSE"]) else {
                 guard let _response = FYCommonResponse(xml: xml["RESPONSE"]) else {
                     return .failure(FYNetworkError.wrongXML)
